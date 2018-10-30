@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tic-tac-toe</title>
+	<style type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	 	
+     td
+     {
+     	 width: 100px;
+     	 height: 100px;
+     } 
+
+   .vertical
+   {
+   	    border-right: 1px solid black;
+   	    border-left: 1px solid black;
+   }
+
+   .horizontal
+   {
+
+   	    border-top:  1px solid black;
+   	    border-bottom: 1px solid black;
+
+   }
+
+   table
+   {
+   	   margin:auto auto auto auto;
+   }
+
+    h1
+    {
+    	  text-align: center;
+
+    }
+
+    
+	td:hover {
+		border: 1px solid grey;
+	}
+
+	</style>
+</head>
+<body>
+
+	<h1><b>tic-tac-toe</b></h1>
+
+   <table>
+
+
+   	  <tr >
+   	  	<td ></td>
+   	  	<td class="vertical"></td>
+   	  	<td></td>
+   	  </tr>
+
+   	  <tr>
+   	  	<td class="horizontal"></td>
+   	  	<td class="vertical horizontal"></td>
+   	  	<td class="horizontal"></td>
+   	  </tr>
+
+   	  <tr>
+   	  	<td></td>
+   	  	<td class="vertical"></td>
+   	  	<td></td>
+   	  </tr>  
+
+   	</table>
+  
+
+
+
+</body>
+</html>
