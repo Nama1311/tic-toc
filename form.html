@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="first.css">
+
+</head>
+<body>
+ 
+
+	   <h1>Register</h1>
+
+	   <fieldset>
+	   	
+	   	<legend id="special">Personel Information</legend>
+
+         
+  <form>
+
+   <label>
+   	 First Name:
+   	  <input type="text" name="first name"placeholder=" first name" required="">
+   </label>
+     &emsp;
+ <label>
+   	 Last Name:
+   	  <input type="text" name="last name"placeholder=" last name" required="">
+   </label>
+   <br>
+
+   
+   Gender:
+   &emsp;
+   <label>
+   	Male
+   	<input type="radio" name="gender" value="Male">
+   </label>
+   
+
+    <label>
+   	Female
+   	<input type="radio" name="gender" value="Female">
+   </label>
+
+   
+      <label>
+   	Other
+   	<input type="radio" name="Other" value="Other">
+   </label>
+  
+   <br>
+   <label>
+   	Email:
+   	<input type="Email" name="Email"placeholder=" your email" required="">
+   </label>
+   &emsp;
+   <label>
+   	Password:
+   	<input type="Password" name="Password" placeholder="your Password" pattern=".{5,10}" required title="5 to 10 characters">
+   	
+   </label>
+   <br>
+
+    <div>
+    	<label>
+    		Birthday:
+    		&nbsp;
+    		 <select name="Month">
+    		 	<option>Month</option>
+    		 </select>
+    		 &emsp;
+            <select name="Day"> 
+                <option>Day</option>
+            </select>
+            &emsp;
+             <select name="Year">
+             	<option>Year</option>
+             </select>
+    	</label>
+    </div>
+
+   <br>
+       <div>
+       	<label for="agreed"> I Agree to the term and condition: </label>
+       	<input id="agreed" name="agreed" type="checkbox">
+       </div>
+      
+       <br>
+      <input type="submit" value="submit">&emsp;
+      <input type="reset" value="Reset">
+
+
+
+
+	   </fieldset>
+ 
+
+</form>
+
+
+
+</body>
+</html>
